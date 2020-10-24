@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/link_parent_bg"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/link_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/tag"
+        android:background="@null"
+        android:padding="10dp"
+        android:textColor="#000" />
+
+        <ImageButton
+            android:id="@+id/go_to_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_btn_bg"
+            android:padding="5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_baseline_link_24"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/link_btn_bg"
+        android:hint="@string/link"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="#8F616161" />
+
+</LinearLayout>

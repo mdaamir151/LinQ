@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinQ</string>
+    <string name="tag">Add Tag</string>
+    <string name="link">link</string>
+    <string name="share_link">share link</string>
+    <string name="share">Share</string>
+    <string name="share_open_links">Share or Open Links</string>
+</resources>
